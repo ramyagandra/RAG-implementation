@@ -1,0 +1,43 @@
+Hello Everyone 
+# RAG Implementation
+
+## Overview
+This project demonstrates the implementation of a Retrieval-Augmented Generation (RAG) pipeline. RAG combines information retrieval with large language models (LLMs) to generate more accurate, context-aware, and up-to-date responses.
+
+## What is RAG?
+Retrieval-Augmented Generation (RAG) is an AI architecture that enhances language models by retrieving relevant information from external knowledge sources before generating a response.
+
+### Workflow
+1. Load and preprocess documents.
+2. Convert documents into embeddings.
+3. Store embeddings in a vector database.
+4. Retrieve relevant documents based on the user query.
+5. Provide the retrieved context to the LLM.
+6. Generate a context-aware response.
+
+## Features
+- Document ingestion and preprocessing
+- Text chunking
+- Embedding generation
+- Vector similarity search
+- Context retrieval
+- Response generation using an LLM
+
+## Technologies Used
+- Python
+- Google Colab
+- Vector Database
+- Embedding Models
+- Large Language Models (LLMs)
+
+## Project Notebook
+Google Colab Notebook:
+
+https://colab.research.google.com/drive/1k6u0L9FzyY23rghuV5efidY5ufA9YC-v?usp=sharing
+
+## Future Improvements
+- Support for multiple document formats
+- Advanced reranking techniques
+- Integration with production-ready vector databases
+- Web-based user interface
+
